@@ -379,7 +379,8 @@ def computeexcelmoney(path,descol,sourcecol):
     excel.save(path)
 
 if __name__ == '__main__':
-    path = 'D:/test3.xls'
+    # path = 'D:/test3.xls'
+    path = '/users/yefei/documents/newstock.xls'
     rowlist = [u'每手股数', u'全球发售股数', u'招股价下限', u'招股价上限', u'香港/公开发售股数', u'国际配售股数', u'市值', u'保荐人',u'招股一手金额',u'是否有旧股',u'基础投资人占比', \
                u'20账户一手申请可中股数',u'暗盘收盘价',u'开盘固定时点价',u'盈利']
 

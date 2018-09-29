@@ -8,7 +8,6 @@ import requests
 import traceback
 from bs4 import BeautifulSoup
 import re
-from excel import Excel
 import xlwt
 import xlrd
 
